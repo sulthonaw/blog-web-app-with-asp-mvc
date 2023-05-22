@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u8VWbyMsCQ9Cf3UPUR8qonpYFPcgWZ2b8jJJpgKG4UvIv8RWAbW2D3xeJ6SLdel4XED5lPByDRYHa4cBToujwg==",
+  "dgSpecHash": "lXMebMGwQVeVUs0FWsD40JxUJZVbBD8w8z+TfyJaCmBmIF06LPidh+0kf9GGJln2yYihvjW00Zp/WKAXUGqk8w==",
   "success": true,
-  "projectFilePath": "D:\\😱 .Net\\BlogWeb\\BlogWeb.csproj",
+  "projectFilePath": "D:\\🐱‍👤 github\\blog-web-app-with-asp-mvc\\BlogWeb\\BlogWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

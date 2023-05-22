@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\😱 .Net\\BlogWeb\\BlogWeb.csproj": {}
+    "D:\\🐱‍👤 github\\blog-web-app-with-asp-mvc\\BlogWeb\\BlogWeb.csproj": {}
   },
   "projects": {
-    "D:\\😱 .Net\\BlogWeb\\BlogWeb.csproj": {
+    "D:\\🐱‍👤 github\\blog-web-app-with-asp-mvc\\BlogWeb\\BlogWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\😱 .Net\\BlogWeb\\BlogWeb.csproj",
+        "projectUniqueName": "D:\\🐱‍👤 github\\blog-web-app-with-asp-mvc\\BlogWeb\\BlogWeb.csproj",
         "projectName": "BlogWeb",
-        "projectPath": "D:\\😱 .Net\\BlogWeb\\BlogWeb.csproj",
+        "projectPath": "D:\\🐱‍👤 github\\blog-web-app-with-asp-mvc\\BlogWeb\\BlogWeb.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\😱 .Net\\BlogWeb\\obj\\",
+        "outputPath": "D:\\🐱‍👤 github\\blog-web-app-with-asp-mvc\\BlogWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
