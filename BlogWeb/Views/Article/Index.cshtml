@@ -1,0 +1,32 @@
+﻿@model IEnumerable<BlogWeb.Models.ArticleModel>
+
+@{
+	ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+
+
+<p>
+	<a asp-action="Create">Create New</a>
+</p>
+
+
+<div class="row row-cols-3 g-2">
+	@foreach (var item in Model)
+	{
+		<div class="col col-3">
+			<div class="card">
+				<div class="card-body">
+					<h5 class="card-title">@item.Title</h5>
+					<h6 class="card-subtitle mb-2 text-muted">@item.Author</h6>
+					<p class="card-text">@item.Excerpt</p>
+					<a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+					<a asp-action="Details" asp-route-id="@item.Id">Details</a>
+					<a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+				</div>
+			</div>
+		</div>
+	}
+</div>

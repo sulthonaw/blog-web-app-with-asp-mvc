@@ -1,0 +1,15 @@
+﻿@model IEnumerable<BlogWeb.Models.ArticleModel>
+@{
+	ViewData["Title"] = "Home Page";
+}
+
+<div class="">
+	@foreach (var data in Model.Take(5))
+	{
+
+		<ul>
+			<li>Title: @data.Title</li>
+			<li>Excerpt: @data.Excerpt</li>
+		</ul>
+	}
+</div>
