@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "awCCOHpE7SBQTtX0McqVOMcYuKHRE0IccgPqd6ta61A=",
+  "Hash": "WSmZQH+Bm65mBO4nG7LVolfi11TGxUIuFEgjJgepIlY=",
   "Source": "BlogWeb",
   "BasePath": "_content/BlogWeb",
   "Mode": "Default",
@@ -83,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\\uD83D\uDC31‍\uD83D\uDC64 github\\blog-web-app-with-asp-mvc\\BlogWeb\\wwwroot\\img\\architecture.jpg",
+      "SourceId": "BlogWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\\uD83D\uDC31‍\uD83D\uDC64 github\\blog-web-app-with-asp-mvc\\BlogWeb\\wwwroot\\",
+      "BasePath": "_content/BlogWeb",
+      "RelativePath": "img/architecture.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\architecture.jpg"
+    },
+    {
+      "Identity": "D:\\\uD83D\uDC31‍\uD83D\uDC64 github\\blog-web-app-with-asp-mvc\\BlogWeb\\wwwroot\\img\\dekstop.jpg",
+      "SourceId": "BlogWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\\uD83D\uDC31‍\uD83D\uDC64 github\\blog-web-app-with-asp-mvc\\BlogWeb\\wwwroot\\",
+      "BasePath": "_content/BlogWeb",
+      "RelativePath": "img/dekstop.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\dekstop.jpg"
     },
     {
       "Identity": "D:\\\uD83D\uDC31‍\uD83D\uDC64 github\\blog-web-app-with-asp-mvc\\BlogWeb\\wwwroot\\img\\macbook.jpg",
