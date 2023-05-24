@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\\uD83D\uDC31‍\uD83D\uDC64 github\\blog-web-app-with-asp-mvc\\BlogWeb\\wwwroot\\img\\__24_2023_14_49_Test",
+      "PackagePath": "staticwebassets\\img"
+    },
+    {
+      "Id": "D:\\\uD83D\uDC31‍\uD83D\uDC64 github\\blog-web-app-with-asp-mvc\\BlogWeb\\wwwroot\\img\\__24_2023_14_51_Test",
+      "PackagePath": "staticwebassets\\img"
+    },
+    {
       "Id": "D:\\\uD83D\uDC31‍\uD83D\uDC64 github\\blog-web-app-with-asp-mvc\\BlogWeb\\wwwroot\\img\\architecture.jpg",
       "PackagePath": "staticwebassets\\img\\architecture.jpg"
     },
@@ -21,8 +29,8 @@
       "PackagePath": "staticwebassets\\img\\dekstop.jpg"
     },
     {
-      "Id": "D:\\\uD83D\uDC31‍\uD83D\uDC64 github\\blog-web-app-with-asp-mvc\\BlogWeb\\wwwroot\\img\\macbook.jpg",
-      "PackagePath": "staticwebassets\\img\\macbook.jpg"
+      "Id": "D:\\\uD83D\uDC31‍\uD83D\uDC64 github\\blog-web-app-with-asp-mvc\\BlogWeb\\wwwroot\\img\\people.jpg",
+      "PackagePath": "staticwebassets\\img\\people.jpg"
     },
     {
       "Id": "D:\\\uD83D\uDC31‍\uD83D\uDC64 github\\blog-web-app-with-asp-mvc\\BlogWeb\\wwwroot\\js\\site.js",

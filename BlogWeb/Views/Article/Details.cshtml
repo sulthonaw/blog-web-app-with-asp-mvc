@@ -1,66 +1,20 @@
 ﻿@model BlogWeb.Models.ArticleModel
 
 @{
-    ViewData["Title"] = "Details";
+	ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<section class="row">
 
-<div>
-    <h4>ArticleModel</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Title)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Title)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Description)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Description)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Excerpt)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Excerpt)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.PublishDate)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.PublishDate)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Author)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Author)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.FeaturedImg)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.FeaturedImg)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.TimeRead)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.TimeRead)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Category)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Category)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+	<div class="col col-8">
+		<div class="px-3">
+			<img src="~/img/@Model.FeaturedImg" alt="@Model.FeaturedImg" class="img-fluid rounded" style="max-height: 400px; object-fit: cover; width: 100%;" />
+		</div>
+		<div class="">
+			<h2 class="mt-3">@Model.Title</h2>
+			<div class="text-muted">👨 @Model.Author - @Model.TimeRead min read - @Model.PublishDate.ToShortDateString()</div>
+			<p class="mt-3 fs-6">@Model.Description</p>
+		</div>
+	</div>
+
+</section>

@@ -10,31 +10,59 @@
 
 }
 
-<section style="max-width: 800px">
-
-	<div class="px-3">
-		@foreach (var data in Model)
-		{
-			<div class="card py-3 mb-4 border-0 border-top border-bottom ">
-				<div class="d-flex align-items-center">
-					<div class="pe-5">
-						<div class="text-muted">@data.Author - @data.PublishDate.Day @Bulan(data.PublishDate.Month) @data.PublishDate.Year</div>
-						<a asp-action="Details" asp-controller="Article" asp-route-id="@data.Id" class="text-dark">
-							<h5 class="mt-1">@data.Title</h5>
-						</a>
-						<p>@data.Excerpt</p>
+<div class="row">
+	<section class="col border-end me-5">
+		<div class="px-3 me-5" style="max-width: 800px">
+			@foreach (var data in Model)
+			{
+				<div class="card pt-3 pb-5 mb-4 border-0 border-bottom ">
+					<div class="d-flex align-items-center">
+						<div class="pe-5">
+							<div class="text-muted">@data.Author - @data.PublishDate.Day @Bulan(data.PublishDate.Month) @data.PublishDate.Year</div>
+							<a asp-action="Details" asp-controller="Article" asp-route-id="@data.Id" class="text-dark">
+								<h5 class="mt-1">@data.Title</h5>
+							</a>
+							<p>@data.Excerpt</p>
+						</div>
+						<div class="rounded-3 overflow-hidden" style="width: 600px; height: 130px;">
+							<img src="~/img/@data.FeaturedImg" class="img-fluid" style="height: 100%; object-fit: cover" />
+						</div>
 					</div>
-					<div class="rounded-3 overflow-hidden" style="width: 600px; height: 130px;">
-						<img src="~/img/@data.FeaturedImg" class="img-fluid" style="height: 100%; object-fit: cover" />
+					<div>
+						<span class="bg-light px-4 py-2 rounded-pill border border-2 text-muted" style="font-size: 0.8rem">@data.Category</span>
 					</div>
 				</div>
+			}
+		</div>
+	</section>
+
+	<section class="col ps-2">
+		<aside class="mt-2 position-sticky" style="top: 5rem;">
+			<section>
+				<h5>People you might be interested</h5>
 				<div>
-					<span class="bg-light px-4 py-2 rounded-pill border border-2 text-muted" style="font-size: 0.8rem">@data.Category</span>
+					<div>
+						<img />
+					</div>
+					@foreach (var data in Model.Take(3))
+					{
+						<div class="row mb-3 align-items-center">
+							<div class="col">
+								<img src="~/img/people.jpg" style="width: 67px; height: 67px" class="rounded-circle" />
+							</div>
+							<div class="col">
+								<div>
+									<h6>@data.Author</h6>
+									<p class="m-0 text-muted">Author</p>
+								</div>
+							</div>
+							<div class="col">
+								<button class="btn btn-outline-light rounded-pill text-muted px-4">Follow</button>
+							</div>
+						</div>
+					}
 				</div>
-			</div>
-		}
-	</div>
-
-</section>
-
-@Html.ActionLink("Default", "HomeSide");
+			</section>
+		</aside>
+	</section>
+</div>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WSmZQH+Bm65mBO4nG7LVolfi11TGxUIuFEgjJgepIlY=",
+  "Hash": "U0oAGJeqOF1Pp7nluCWPluwZ5cWioLAOFA50pCZCYtU=",
   "Source": "BlogWeb",
   "BasePath": "_content/BlogWeb",
   "Mode": "Default",
@@ -85,6 +85,40 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "D:\\\uD83D\uDC31‍\uD83D\uDC64 github\\blog-web-app-with-asp-mvc\\BlogWeb\\wwwroot\\img\\__24_2023_14_49_Test",
+      "SourceId": "BlogWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\\uD83D\uDC31‍\uD83D\uDC64 github\\blog-web-app-with-asp-mvc\\BlogWeb\\wwwroot\\",
+      "BasePath": "_content/BlogWeb",
+      "RelativePath": "img/__24_2023_14_49_Test",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\__24_2023_14_49_Test"
+    },
+    {
+      "Identity": "D:\\\uD83D\uDC31‍\uD83D\uDC64 github\\blog-web-app-with-asp-mvc\\BlogWeb\\wwwroot\\img\\__24_2023_14_51_Test",
+      "SourceId": "BlogWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\\uD83D\uDC31‍\uD83D\uDC64 github\\blog-web-app-with-asp-mvc\\BlogWeb\\wwwroot\\",
+      "BasePath": "_content/BlogWeb",
+      "RelativePath": "img/__24_2023_14_51_Test",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\__24_2023_14_51_Test"
+    },
+    {
       "Identity": "D:\\\uD83D\uDC31‍\uD83D\uDC64 github\\blog-web-app-with-asp-mvc\\BlogWeb\\wwwroot\\img\\architecture.jpg",
       "SourceId": "BlogWeb",
       "SourceType": "Discovered",
@@ -119,12 +153,12 @@
       "OriginalItemSpec": "wwwroot\\img\\dekstop.jpg"
     },
     {
-      "Identity": "D:\\\uD83D\uDC31‍\uD83D\uDC64 github\\blog-web-app-with-asp-mvc\\BlogWeb\\wwwroot\\img\\macbook.jpg",
+      "Identity": "D:\\\uD83D\uDC31‍\uD83D\uDC64 github\\blog-web-app-with-asp-mvc\\BlogWeb\\wwwroot\\img\\people.jpg",
       "SourceId": "BlogWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\\uD83D\uDC31‍\uD83D\uDC64 github\\blog-web-app-with-asp-mvc\\BlogWeb\\wwwroot\\",
       "BasePath": "_content/BlogWeb",
-      "RelativePath": "img/macbook.jpg",
+      "RelativePath": "img/people.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -133,7 +167,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\macbook.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\people.jpg"
     },
     {
       "Identity": "D:\\\uD83D\uDC31‍\uD83D\uDC64 github\\blog-web-app-with-asp-mvc\\BlogWeb\\wwwroot\\js\\site.js",
